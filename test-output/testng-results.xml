@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-09T20:38:59 ART" name="Default suite" finished-at="2022-10-09T20:39:00 ART" duration-ms="1600">
+    <groups>
+    </groups>
+    <test started-at="2022-10-09T20:38:59 ART" name="Default test" finished-at="2022-10-09T20:39:00 ART" duration-ms="1600">
+      <class name="Test.Logueo_Exitoso_falla">
+        <test-method is-config="true" signature="abrirPagina()[pri:0, instance:Test.Logueo_Exitoso_falla@1b11171f]" started-at="2022-10-09T20:38:57 ART" name="abrirPagina" finished-at="2022-10-09T20:38:58 ART" duration-ms="1038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abrirPagina -->
+        <test-method signature="loguear()[pri:0, instance:Test.Logueo_Exitoso_falla@1b11171f]" started-at="2022-10-09T20:38:59 ART" name="loguear" description="01_Loguear exitosamente" finished-at="2022-10-09T20:38:59 ART" duration-ms="252" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<https://www.saucedemo.com/inventory.html> but was:<https://www.saucedemo.com/>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<https://www.saucedemo.com/inventory.html> but was:<https://www.saucedemo.com/>
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:125)
+at Test.Logueo_Exitoso_falla.loguear(Logueo_Exitoso_falla.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loguear -->
+        <test-method is-config="true" signature="capturaPantalla(org.testng.ITestResult)[pri:0, instance:Test.Logueo_Exitoso_falla@1b11171f]" started-at="2022-10-09T20:38:59 ART" name="capturaPantalla" finished-at="2022-10-09T20:38:59 ART" duration-ms="212" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loguear status=FAILURE method=Logueo_Exitoso_falla.loguear()[pri:0, instance:Test.Logueo_Exitoso_falla@1b11171f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capturaPantalla -->
+        <test-method is-config="true" signature="cerrarNavegador()[pri:0, instance:Test.Logueo_Exitoso_falla@1b11171f]" started-at="2022-10-09T20:39:00 ART" name="cerrarNavegador" finished-at="2022-10-09T20:39:01 ART" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cerrarNavegador -->
+      </class> <!-- Test.Logueo_Exitoso_falla -->
+      <class name="Test.Logueo_error">
+        <test-method is-config="true" signature="abrirPagina()[pri:0, instance:Test.Logueo_error@2d710f1a]" started-at="2022-10-09T20:38:58 ART" name="abrirPagina" finished-at="2022-10-09T20:38:59 ART" duration-ms="1025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abrirPagina -->
+        <test-method signature="contraseñaInvalida()[pri:0, instance:Test.Logueo_error@2d710f1a]" started-at="2022-10-09T20:38:59 ART" name="contraseñaInvalida" description="02_Loguear contraseña invalida" finished-at="2022-10-09T20:39:00 ART" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contraseñaInvalida -->
+        <test-method is-config="true" signature="capturaPantalla(org.testng.ITestResult)[pri:0, instance:Test.Logueo_error@2d710f1a]" started-at="2022-10-09T20:39:00 ART" name="capturaPantalla" finished-at="2022-10-09T20:39:00 ART" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=contraseñaInvalida status=SUCCESS method=Logueo_error.contraseñaInvalida()[pri:0, instance:Test.Logueo_error@2d710f1a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capturaPantalla -->
+        <test-method signature="loguearIngresandoContraseña()[pri:0, instance:Test.Logueo_error@2d710f1a]" started-at="2022-10-09T20:39:00 ART" name="loguearIngresandoContraseña" description="04_Loguear ingresando solo contraseña" finished-at="2022-10-09T20:39:00 ART" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loguearIngresandoContraseña -->
+        <test-method is-config="true" signature="capturaPantalla(org.testng.ITestResult)[pri:0, instance:Test.Logueo_error@2d710f1a]" started-at="2022-10-09T20:39:00 ART" name="capturaPantalla" finished-at="2022-10-09T20:39:00 ART" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loguearIngresandoContraseña status=SUCCESS method=Logueo_error.loguearIngresandoContraseña()[pri:0, instance:Test.Logueo_error@2d710f1a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capturaPantalla -->
+        <test-method signature="loguearIngresandoUsuario()[pri:0, instance:Test.Logueo_error@2d710f1a]" started-at="2022-10-09T20:39:00 ART" name="loguearIngresandoUsuario" description="03_Loguear ingresando solo usuario" finished-at="2022-10-09T20:39:00 ART" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loguearIngresandoUsuario -->
+        <test-method signature="usuarioInvalido()[pri:0, instance:Test.Logueo_error@2d710f1a]" started-at="2022-10-09T20:39:00 ART" name="usuarioInvalido" description="01_Loguear Usuario invalido" finished-at="2022-10-09T20:39:00 ART" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usuarioInvalido -->
+        <test-method is-config="true" signature="capturaPantalla(org.testng.ITestResult)[pri:0, instance:Test.Logueo_error@2d710f1a]" started-at="2022-10-09T20:39:00 ART" name="capturaPantalla" finished-at="2022-10-09T20:39:00 ART" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loguearIngresandoUsuario status=SUCCESS method=Logueo_error.loguearIngresandoUsuario()[pri:0, instance:Test.Logueo_error@2d710f1a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capturaPantalla -->
+        <test-method is-config="true" signature="capturaPantalla(org.testng.ITestResult)[pri:0, instance:Test.Logueo_error@2d710f1a]" started-at="2022-10-09T20:39:00 ART" name="capturaPantalla" finished-at="2022-10-09T20:39:00 ART" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=usuarioInvalido status=SUCCESS method=Logueo_error.usuarioInvalido()[pri:0, instance:Test.Logueo_error@2d710f1a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capturaPantalla -->
+        <test-method is-config="true" signature="cerrarNavegador()[pri:0, instance:Test.Logueo_error@2d710f1a]" started-at="2022-10-09T20:39:01 ART" name="cerrarNavegador" finished-at="2022-10-09T20:39:01 ART" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cerrarNavegador -->
+      </class> <!-- Test.Logueo_error -->
+      <class name="Test.Logueo_Exitoso">
+        <test-method is-config="true" signature="abrirPagina()[pri:0, instance:Test.Logueo_Exitoso@29215f06]" started-at="2022-10-09T20:38:54 ART" name="abrirPagina" finished-at="2022-10-09T20:38:57 ART" duration-ms="2213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abrirPagina -->
+        <test-method signature="loguear()[pri:0, instance:Test.Logueo_Exitoso@29215f06]" started-at="2022-10-09T20:39:00 ART" name="loguear" description="01_Loguear exitosamente" finished-at="2022-10-09T20:39:00 ART" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loguear -->
+        <test-method is-config="true" signature="capturaPantalla(org.testng.ITestResult)[pri:0, instance:Test.Logueo_Exitoso@29215f06]" started-at="2022-10-09T20:39:00 ART" name="capturaPantalla" finished-at="2022-10-09T20:39:00 ART" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loguear status=SUCCESS method=Logueo_Exitoso.loguear()[pri:0, instance:Test.Logueo_Exitoso@29215f06] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capturaPantalla -->
+        <test-method is-config="true" signature="cerrarNavegador()[pri:0, instance:Test.Logueo_Exitoso@29215f06]" started-at="2022-10-09T20:39:00 ART" name="cerrarNavegador" finished-at="2022-10-09T20:39:00 ART" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cerrarNavegador -->
+      </class> <!-- Test.Logueo_Exitoso -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
