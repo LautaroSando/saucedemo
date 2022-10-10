@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-09T20:38:59 ART" name="Default suite" finished-at="2022-10-09T20:39:00 ART" duration-ms="1600">
+  <suite started-at="2022-10-09T20:53:57 ART" name="Default suite" finished-at="2022-10-09T20:53:59 ART" duration-ms="1794">
     <groups>
     </groups>
-    <test started-at="2022-10-09T20:38:59 ART" name="Default test" finished-at="2022-10-09T20:39:00 ART" duration-ms="1600">
+    <test started-at="2022-10-09T20:53:57 ART" name="Default test" finished-at="2022-10-09T20:53:59 ART" duration-ms="1794">
       <class name="Test.Logueo_Exitoso_falla">
-        <test-method is-config="true" signature="abrirPagina()[pri:0, instance:Test.Logueo_Exitoso_falla@1b11171f]" started-at="2022-10-09T20:38:57 ART" name="abrirPagina" finished-at="2022-10-09T20:38:58 ART" duration-ms="1038" status="PASS">
+        <test-method is-config="true" signature="abrirPagina()[pri:0, instance:Test.Logueo_Exitoso_falla@1b11171f]" started-at="2022-10-09T20:53:55 ART" name="abrirPagina" finished-at="2022-10-09T20:53:56 ART" duration-ms="951" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- abrirPagina -->
-        <test-method signature="loguear()[pri:0, instance:Test.Logueo_Exitoso_falla@1b11171f]" started-at="2022-10-09T20:38:59 ART" name="loguear" description="01_Loguear exitosamente" finished-at="2022-10-09T20:38:59 ART" duration-ms="252" status="FAIL">
+        <test-method signature="loguear()[pri:0, instance:Test.Logueo_Exitoso_falla@1b11171f]" started-at="2022-10-09T20:53:57 ART" name="loguear" description="01_Loguear exitosamente" finished-at="2022-10-09T20:53:57 ART" duration-ms="230" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected:<https://www.saucedemo.com/inventory.html> but was:<https://www.saucedemo.com/>]]>
@@ -55,7 +55,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loguear -->
-        <test-method is-config="true" signature="capturaPantalla(org.testng.ITestResult)[pri:0, instance:Test.Logueo_Exitoso_falla@1b11171f]" started-at="2022-10-09T20:38:59 ART" name="capturaPantalla" finished-at="2022-10-09T20:38:59 ART" duration-ms="212" status="PASS">
+        <test-method is-config="true" signature="capturaPantalla(org.testng.ITestResult)[pri:0, instance:Test.Logueo_Exitoso_falla@1b11171f]" started-at="2022-10-09T20:53:57 ART" name="capturaPantalla" finished-at="2022-10-09T20:53:58 ART" duration-ms="250" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -66,21 +66,21 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- capturaPantalla -->
-        <test-method is-config="true" signature="cerrarNavegador()[pri:0, instance:Test.Logueo_Exitoso_falla@1b11171f]" started-at="2022-10-09T20:39:00 ART" name="cerrarNavegador" finished-at="2022-10-09T20:39:01 ART" duration-ms="77" status="PASS">
+        <test-method is-config="true" signature="cerrarNavegador()[pri:0, instance:Test.Logueo_Exitoso_falla@1b11171f]" started-at="2022-10-09T20:53:59 ART" name="cerrarNavegador" finished-at="2022-10-09T20:53:59 ART" duration-ms="68" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cerrarNavegador -->
       </class> <!-- Test.Logueo_Exitoso_falla -->
       <class name="Test.Logueo_error">
-        <test-method is-config="true" signature="abrirPagina()[pri:0, instance:Test.Logueo_error@2d710f1a]" started-at="2022-10-09T20:38:58 ART" name="abrirPagina" finished-at="2022-10-09T20:38:59 ART" duration-ms="1025" status="PASS">
+        <test-method is-config="true" signature="abrirPagina()[pri:0, instance:Test.Logueo_error@2d710f1a]" started-at="2022-10-09T20:53:56 ART" name="abrirPagina" finished-at="2022-10-09T20:53:57 ART" duration-ms="1041" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- abrirPagina -->
-        <test-method signature="contraseñaInvalida()[pri:0, instance:Test.Logueo_error@2d710f1a]" started-at="2022-10-09T20:38:59 ART" name="contraseñaInvalida" description="02_Loguear contraseña invalida" finished-at="2022-10-09T20:39:00 ART" duration-ms="286" status="PASS">
+        <test-method signature="contraseñaInvalida()[pri:0, instance:Test.Logueo_error@2d710f1a]" started-at="2022-10-09T20:53:58 ART" name="contraseñaInvalida" description="02_Loguear contraseña invalida" finished-at="2022-10-09T20:53:58 ART" duration-ms="290" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contraseñaInvalida -->
-        <test-method is-config="true" signature="capturaPantalla(org.testng.ITestResult)[pri:0, instance:Test.Logueo_error@2d710f1a]" started-at="2022-10-09T20:39:00 ART" name="capturaPantalla" finished-at="2022-10-09T20:39:00 ART" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="capturaPantalla(org.testng.ITestResult)[pri:0, instance:Test.Logueo_error@2d710f1a]" started-at="2022-10-09T20:53:58 ART" name="capturaPantalla" finished-at="2022-10-09T20:53:58 ART" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -91,11 +91,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- capturaPantalla -->
-        <test-method signature="loguearIngresandoContraseña()[pri:0, instance:Test.Logueo_error@2d710f1a]" started-at="2022-10-09T20:39:00 ART" name="loguearIngresandoContraseña" description="04_Loguear ingresando solo contraseña" finished-at="2022-10-09T20:39:00 ART" duration-ms="222" status="PASS">
+        <test-method signature="loguearIngresandoContraseña()[pri:0, instance:Test.Logueo_error@2d710f1a]" started-at="2022-10-09T20:53:58 ART" name="loguearIngresandoContraseña" description="04_Loguear ingresando solo contraseña" finished-at="2022-10-09T20:53:58 ART" duration-ms="276" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loguearIngresandoContraseña -->
-        <test-method is-config="true" signature="capturaPantalla(org.testng.ITestResult)[pri:0, instance:Test.Logueo_error@2d710f1a]" started-at="2022-10-09T20:39:00 ART" name="capturaPantalla" finished-at="2022-10-09T20:39:00 ART" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="capturaPantalla(org.testng.ITestResult)[pri:0, instance:Test.Logueo_error@2d710f1a]" started-at="2022-10-09T20:53:58 ART" name="capturaPantalla" finished-at="2022-10-09T20:53:58 ART" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -106,15 +106,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- capturaPantalla -->
-        <test-method signature="loguearIngresandoUsuario()[pri:0, instance:Test.Logueo_error@2d710f1a]" started-at="2022-10-09T20:39:00 ART" name="loguearIngresandoUsuario" description="03_Loguear ingresando solo usuario" finished-at="2022-10-09T20:39:00 ART" duration-ms="191" status="PASS">
+        <test-method signature="loguearIngresandoUsuario()[pri:0, instance:Test.Logueo_error@2d710f1a]" started-at="2022-10-09T20:53:58 ART" name="loguearIngresandoUsuario" description="03_Loguear ingresando solo usuario" finished-at="2022-10-09T20:53:59 ART" duration-ms="259" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loguearIngresandoUsuario -->
-        <test-method signature="usuarioInvalido()[pri:0, instance:Test.Logueo_error@2d710f1a]" started-at="2022-10-09T20:39:00 ART" name="usuarioInvalido" description="01_Loguear Usuario invalido" finished-at="2022-10-09T20:39:00 ART" duration-ms="135" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- usuarioInvalido -->
-        <test-method is-config="true" signature="capturaPantalla(org.testng.ITestResult)[pri:0, instance:Test.Logueo_error@2d710f1a]" started-at="2022-10-09T20:39:00 ART" name="capturaPantalla" finished-at="2022-10-09T20:39:00 ART" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="capturaPantalla(org.testng.ITestResult)[pri:0, instance:Test.Logueo_error@2d710f1a]" started-at="2022-10-09T20:53:59 ART" name="capturaPantalla" finished-at="2022-10-09T20:53:59 ART" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -125,7 +121,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- capturaPantalla -->
-        <test-method is-config="true" signature="capturaPantalla(org.testng.ITestResult)[pri:0, instance:Test.Logueo_error@2d710f1a]" started-at="2022-10-09T20:39:00 ART" name="capturaPantalla" finished-at="2022-10-09T20:39:00 ART" duration-ms="0" status="PASS">
+        <test-method signature="usuarioInvalido()[pri:0, instance:Test.Logueo_error@2d710f1a]" started-at="2022-10-09T20:53:59 ART" name="usuarioInvalido" description="01_Loguear Usuario invalido" finished-at="2022-10-09T20:53:59 ART" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usuarioInvalido -->
+        <test-method is-config="true" signature="capturaPantalla(org.testng.ITestResult)[pri:0, instance:Test.Logueo_error@2d710f1a]" started-at="2022-10-09T20:53:59 ART" name="capturaPantalla" finished-at="2022-10-09T20:53:59 ART" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -136,21 +136,21 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- capturaPantalla -->
-        <test-method is-config="true" signature="cerrarNavegador()[pri:0, instance:Test.Logueo_error@2d710f1a]" started-at="2022-10-09T20:39:01 ART" name="cerrarNavegador" finished-at="2022-10-09T20:39:01 ART" duration-ms="85" status="PASS">
+        <test-method is-config="true" signature="cerrarNavegador()[pri:0, instance:Test.Logueo_error@2d710f1a]" started-at="2022-10-09T20:53:59 ART" name="cerrarNavegador" finished-at="2022-10-09T20:53:59 ART" duration-ms="84" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cerrarNavegador -->
       </class> <!-- Test.Logueo_error -->
       <class name="Test.Logueo_Exitoso">
-        <test-method is-config="true" signature="abrirPagina()[pri:0, instance:Test.Logueo_Exitoso@29215f06]" started-at="2022-10-09T20:38:54 ART" name="abrirPagina" finished-at="2022-10-09T20:38:57 ART" duration-ms="2213" status="PASS">
+        <test-method is-config="true" signature="abrirPagina()[pri:0, instance:Test.Logueo_Exitoso@29215f06]" started-at="2022-10-09T20:53:53 ART" name="abrirPagina" finished-at="2022-10-09T20:53:55 ART" duration-ms="2594" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- abrirPagina -->
-        <test-method signature="loguear()[pri:0, instance:Test.Logueo_Exitoso@29215f06]" started-at="2022-10-09T20:39:00 ART" name="loguear" description="01_Loguear exitosamente" finished-at="2022-10-09T20:39:00 ART" duration-ms="265" status="PASS">
+        <test-method signature="loguear()[pri:0, instance:Test.Logueo_Exitoso@29215f06]" started-at="2022-10-09T20:53:59 ART" name="loguear" description="01_Loguear exitosamente" finished-at="2022-10-09T20:53:59 ART" duration-ms="299" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loguear -->
-        <test-method is-config="true" signature="capturaPantalla(org.testng.ITestResult)[pri:0, instance:Test.Logueo_Exitoso@29215f06]" started-at="2022-10-09T20:39:00 ART" name="capturaPantalla" finished-at="2022-10-09T20:39:00 ART" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="capturaPantalla(org.testng.ITestResult)[pri:0, instance:Test.Logueo_Exitoso@29215f06]" started-at="2022-10-09T20:53:59 ART" name="capturaPantalla" finished-at="2022-10-09T20:53:59 ART" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -161,7 +161,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- capturaPantalla -->
-        <test-method is-config="true" signature="cerrarNavegador()[pri:0, instance:Test.Logueo_Exitoso@29215f06]" started-at="2022-10-09T20:39:00 ART" name="cerrarNavegador" finished-at="2022-10-09T20:39:00 ART" duration-ms="99" status="PASS">
+        <test-method is-config="true" signature="cerrarNavegador()[pri:0, instance:Test.Logueo_Exitoso@29215f06]" started-at="2022-10-09T20:53:59 ART" name="cerrarNavegador" finished-at="2022-10-09T20:53:59 ART" duration-ms="94" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cerrarNavegador -->

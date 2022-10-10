@@ -1,0 +1,59 @@
+Caso de prueba 1
+
+Titulo
+Logueo con datos validos
+
+Descripción
+Se debe poder loguear a la web de manera exitosa, accediendo al carrito.
+
+Datos
+Usuario: standard_user
+Contraseña: secret_sauce
+
+Pasos
+1°Ingresar a la siguiente url https://www.saucedemo.com/
+2°Ingresar usuario y contraseña
+3°Presionar el bóton LOGIN
+
+Resultado esperado
+Se espera visualiza que es redireccionado a la pantalla Carrito
+
+Caso de prueba 2
+
+Titulo
+Logueo sin datos validos
+
+Descripción
+Se debe visualizar un mensaje de error impidiendo continuar.
+
+Datos
+Usuario: Falso123
+Contraseña: Falso321
+
+Pasos
+1°Ingresar a la siguiente url https://www.saucedemo.com/
+2°Ingresar usuario y contraseña
+3°Presionar el bóton LOGIN
+
+Resultado esperado
+Se espera visualizar un mensaje de error referido a que el usuario y la contraseña no son validas, impidiendo avanzar a la siguiente pantalla.
+
+Caso de prueba 3
+
+Titulo
+Logueo con usuario bloqueado
+
+Descripción
+Se debe visualizar un mensaje de error impidiendo continuar.
+
+Datos
+Usuario: locked_out_user
+Contraseña: secret_sauce
+
+Pasos
+1°Ingresar a la siguiente url https://www.saucedemo.com/
+2°Ingresar usuario y contraseña
+3°Presionar el bóton LOGIN
+
+Resultado esperado
+Se espera visualizar un mensaje de error referido a que el usuario se encuentra bloqueado, impidiendo avanzar a la siguiente pantalla.
