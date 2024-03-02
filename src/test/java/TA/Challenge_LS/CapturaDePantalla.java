@@ -11,14 +11,14 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
 public class CapturaDePantalla {
-	static String captura ="..\\\\Challenge-LS\\Capturas\\";
+	static String captura ="..\\Challenge-LAUTAROS\\Capturas\\";
 	static DateTimeFormatter formato = DateTimeFormatter.ofPattern("yyyy-MM-dd HH-mm-ss");
 	
 	public static void capturaPantalla(WebDriver driver) {
 	
 	File screen = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 	try {
-FileUtils.copyFile(screen,new File(captura+"Error"+"_"+LocalDateTime.now().format(formato)+".png")); 
+	FileUtils.copyFile(screen,new File(captura+"Error"+"_"+LocalDateTime.now().format(formato)+".png")); 
 	} catch (IOException p) {
 		p.printStackTrace();
 	}

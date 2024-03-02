@@ -20,16 +20,10 @@ public class Logueo_Exitoso {
 	@BeforeSuite
 	public void abrirPagina() {
 		
-		String URL = "https://www.saucedemo.com/";	
-		
 		//Utilizando el navegador chrome para la ejecución.
+		String URL = "https://www.saucedemo.com/";	
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
-		
-		//Descomentar para utilizar navegador firefox y comentar las lineas 26 y 27.
-		/*WebDriverManager.firefoxdriver().setup();
-		driver = new FirefoxDriver();*/
-				
 		driver.get(URL);
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();

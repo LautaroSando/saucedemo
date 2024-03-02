@@ -1,10 +1,11 @@
 package Test;
 import java.io.IOException;
+import java.sql.Driver;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
@@ -22,21 +23,14 @@ public class Logueo_error {
 	@BeforeSuite
 	public void abrirPagina() {
 		
-		String URL = "https://www.saucedemo.com/";
 		//Utilizando el navegador chrome para la ejecución.
+		String URL = "https://www.saucedemo.com/";
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
-		
-		//Descomentar para utilizar navegador firefox y comentar las lineas 27 y 28.
-		/*WebDriverManager.firefoxdriver().setup();
-		driver = new FirefoxDriver();*/
-		
 		driver.get(URL);
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		
-		
-	
+
 	}
 	@Test (description = "01_Loguear Usuario invalido")
 	public void usuarioInvalido() throws InterruptedException {
@@ -60,8 +54,6 @@ public class Logueo_error {
 		WebElement t1 = driver.findElement(By.cssSelector("h3[data-test='error']"));
 		Assert.assertEquals(t1.getText(),"Epic sadface: Username and password do not match any user in this service");	
 		
-		
-		
 	}
 	
 	@Test (description = "03_Loguear ingresando solo usuario")
@@ -75,8 +67,6 @@ public class Logueo_error {
 		WebElement t1 = driver.findElement(By.cssSelector("h3[data-test='error']"));
 		Assert.assertEquals(t1.getText(),"Epic sadface: Password is required");	
 		
-		
-		
 	}
 	@Test (description = "04_Loguear ingresando solo contraseña")
 	public void loguearIngresandoContraseña() throws InterruptedException, IOException {
@@ -87,9 +77,7 @@ public class Logueo_error {
 		eusuario.escribirContraseña("secret_sauce");
 		eusuario.BtnLogin();
 		WebElement t1 = driver.findElement(By.cssSelector("h3[data-test='error']"));
-		Assert.assertEquals(t1.getText(),"Epic sadface: Username is required");	
-		
-		
+		Assert.assertEquals(t1.getText(),"Epic sadface: Username is required");		
 		
 	}
 	
@@ -98,7 +86,7 @@ public class Logueo_error {
 		@AfterMethod
 		public void capturaPantalla( ITestResult result) {
 		
-		if(!result.isSuccess()) {
+		if(result.isSuccess()) {
 			CapturaDePantalla cap = new CapturaDePantalla();
 			cap.capturaPantalla(driver);	
 	}

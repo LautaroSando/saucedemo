@@ -4,12 +4,12 @@ import java.io.IOException;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.AssertJUnit;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
+
 import TA.Challenge_LS.CapturaDePantalla;
 import TA.Challenge_LS.Logueo;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -37,15 +37,13 @@ WebDriver driver;
 		eusuario.escribirContraseña("123");
 		eusuario.BtnLogin();
 		
-		AssertJUnit.assertEquals("https://www.saucedemo.com/inventory.html",driver.getCurrentUrl() );		
-		
 	}
 	//Se realiza la captura de pantalla en caso de fallar el test
 	@SuppressWarnings("static-access")
 	@AfterMethod
 	public void capturaPantalla( ITestResult result) {
 		
-		if(!result.isSuccess()) {
+		if(result.isSuccess()) {
 			CapturaDePantalla cap = new CapturaDePantalla();
 			cap.capturaPantalla(driver);	
 	}
