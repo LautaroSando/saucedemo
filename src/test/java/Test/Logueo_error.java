@@ -1,6 +1,5 @@
 package Test;
 import java.io.IOException;
-import java.sql.Driver;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -12,6 +11,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
+
 import TA.Challenge_LS.CapturaDePantalla;
 import TA.Challenge_LS.Logueo;
 import io.github.bonigarcia.wdm.WebDriverManager;
