@@ -36,7 +36,7 @@ Evidencia
 
 1.Ingresar al IDE Eclipse
 
-2.Proyeco Challenge-LS
+2.Proyeco Challenge-LAUTAROS
 
 3.Capturas
 
