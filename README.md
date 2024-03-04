@@ -22,7 +22,7 @@ Ejecución casos de prueba
 
 1.Ingresar al IDE Eclipse
 
-2.Proyeco Challenge-LS
+2.Proyeco Challenge-LAUTAROS
 
 3.Ingresar src/test/java
 
@@ -44,7 +44,7 @@ Reporte ejecución
 
 1.Ingresar al IDE Eclipse
 
-2.Proyeco Challenge-LS
+2.Proyeco Challenge-LAUTAROS
 
 3.test-output:
 
